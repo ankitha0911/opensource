@@ -1,0 +1,9 @@
+def a(A,B,C):
+    if A+B <=C:
+        print(2)
+    elif A<=C:
+        print(1)
+    else:
+        print(0)
+A,B,C=map(int,input().split())
+a(A,B,C)
